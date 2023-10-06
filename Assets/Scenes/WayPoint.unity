@@ -461,6 +461,10 @@ PrefabInstance:
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1623485576187160246, guid: 11812787eb1c8c14eb2db769bb98bb2d, type: 3}
+      propertyPath: sObjectPlayer
+      value: 
+      objectReference: {fileID: 11400000, guid: c49e96e20e057314688edb83b4e1f354, type: 2}
+    - target: {fileID: 1623485576187160246, guid: 11812787eb1c8c14eb2db769bb98bb2d, type: 3}
       propertyPath: testObjectPlayer
       value: 
       objectReference: {fileID: 11400000, guid: c49e96e20e057314688edb83b4e1f354, type: 2}
@@ -1235,6 +1239,10 @@ PrefabInstance:
       propertyPath: rotationSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1623485576187160246, guid: 11812787eb1c8c14eb2db769bb98bb2d, type: 3}
+      propertyPath: sObjectPlayer
+      value: 
+      objectReference: {fileID: 11400000, guid: 75880b46559dc6d4ab47ce2377b51c53, type: 2}
     - target: {fileID: 1623485576187160246, guid: 11812787eb1c8c14eb2db769bb98bb2d, type: 3}
       propertyPath: testObjectPlayer
       value: 
