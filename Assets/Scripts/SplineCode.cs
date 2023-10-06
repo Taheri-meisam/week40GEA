@@ -4,6 +4,7 @@ using UnityEngine;
 using Unity.Mathematics;
 using UnityEngine.Splines;
 using UnityEditor;
+using UnityEngine.Animations;
 
 [ExecuteInEditMode()]
 public class SplineCode : MonoBehaviour
@@ -18,6 +19,8 @@ public class SplineCode : MonoBehaviour
     Unity.Mathematics.float3 position;
     float3 tangent;
     float3 upVector;
+    SplineAnimate anim;
+
 
     // Start is called before the first frame update
     void Start()
