@@ -37,7 +37,7 @@ public class FollowPoints : MonoBehaviour
             currentPoint = 0;
             lap++;
         }
-        Quaternion lookAtPoints = Quaternion.LookRotation(points[currentPoint].transform.position - this.transform.position).normalized; // smooth out the rotation 
+        Quaternion lookAtPoints = Quaternion.LookRotation(points[currentPoint].transform.position - this.transform.position); // smooth out the rotation 
         this.transform.rotation = Quaternion.Lerp(transform.rotation, lookAtPoints, rotationSpeed * Time.deltaTime); // interpolate bwteen two points 
         // this.transform.LookAt(points[currentPoint].transform.position );
         this.transform.Translate(0,0,speed * Time.deltaTime); // move 

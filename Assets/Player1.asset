@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a82297f8a3da8f94eaa3d8598a4d731e, type: 3}
   m_Name: Player1
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   rotationSpeed: 8
   pos: {x: 14, y: 1, z: 2}
   mat: {fileID: 2100000, guid: 13fdf43e0352129408abc155672afcc4, type: 2}
